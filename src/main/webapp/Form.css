@@ -1,0 +1,141 @@
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins, sans-serif;
+    }
+    .message{
+        background-color: #2e353d;
+        color: #fff;
+        padding: 7px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .message h1{
+        font-size: 24px;
+    }
+
+    .nav-side-menu {
+        overflow: auto;
+        font-family: verdana;
+        font-size: 14px;
+        font-weight: 200;
+        background-color: #2e353d;
+        position: fixed;
+        top: 0px;
+        width: 300px;
+        height: 100%;
+        color: #e1ffff;
+    }
+
+    .nav-side-menu .brand {
+        background-color: #23282e;
+        color: #fff;
+        line-height: 50px;
+        display: block;
+        font-size: 20px;
+        padding-left: 10px;
+         
+    }
+
+    .nav-side-menu ul,
+    .nav-side-menu li {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        line-height: 35px;
+        cursor: pointer;
+    }
+
+    .nav-side-menu li a {
+        text-decoration: none;
+        color: #e1ffff;
+    }
+
+    .nav-side-menu li:hover {
+        border-left: 3px solid #d19b3d;
+        background-color: #4f5b69;
+    }
+
+    .navbar {
+        background-color: lightgray;
+        justify-content: end;
+    }
+
+    .container {
+        margin-top: 100px;
+        height: 100px;
+        height: 100px;
+    }
+
+    .product-form {
+        margin-left: 140px;
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .panel-heading {
+        color: white;
+        background-color: #007bff;
+        border-color: #ddd;
+    }
+
+    .desc-header {
+        background-color: #FAE7D6;
+        color: black
+    }
+
+    .header {
+        width: 8%;
+    }
+
+    .card-body {
+        background-color: #f8f9fa;
+    }
+
+    /* Style for sub-menu visibility */
+    .sub-menu {
+        display: none;
+        padding-left: 20px;
+    }
+
+    /* Show sub-menu when parent item is active */
+    .active .sub-menu {
+        display: block;
+    }
+    
+    
+/*    Table css*/
+    table {
+                background: #fafafa;
+                border-radius: 0.25em;
+                border-collapse: collapse;
+                margin: 1em;
+                margin-left: 5px;
+                margin-top: 50px;
+                width: 50%;
+                border: 1px solid #000;
+            }
+            th {
+                border-bottom: 1px solid #364043;
+                color:black ;
+                font-size: 0.85em;
+                font-weight: 600;
+                padding: 0.5em 1em;
+                text-align: left;
+              
+            }
+            td {
+                color: #444;
+                ;
+                font-weight: 400;
+                padding: 0.65em 1em;
+            }
+            tbody tr {
+                transition: background 0.25s ease;
+            }
+            tbody tr:hover {
+                background: #d1ecf1;
+            }
+</style>
